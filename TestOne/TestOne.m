@@ -1,14 +1,14 @@
 //
-//  UnitTestTests.m
-//  UnitTestTests
+//  TestOne.m
+//  TestOne
 //
 //  Created by andone on 12-11-26.
 //  Copyright (c) 2012年 andone. All rights reserved.
 //
 
-#import "UnitTestTests.h"
+#import "TestOne.h"
 
-@implementation UnitTestTests
+@implementation TestOne
 
 - (void)setUp
 {
@@ -26,9 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in UnitTestTests");
+    STFail(@"Unit tests are not implemented yet in TestOne");
 }
-- (void)testOne{
-    NSLog(@"test one");
-}
+
 @end
